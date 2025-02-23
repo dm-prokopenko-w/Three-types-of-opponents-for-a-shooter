@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e12d77c600673448d52df76a9438fb, type: 3}
+  m_Name: ProjectileEnemyStats
+  m_EditorClassIdentifier: 
+  characterName: ProjectileEnemy
+  maxHealth: 80
+  damage: 5
+  speed: 2
+  attackRange: 15
+  chasingRange: 9
+  attackCooldown: 1
+  enemyBase: {fileID: 8443321423451588001, guid: f9d1b13fe13560c4197dd7122536fd94, type: 3}
+  projectilePrefab: {fileID: 8550452625170616389, guid: ed77255eb5b20604897ca4492c7c5aac, type: 3}
+  projectileSpeed: 3
+  timeAutoDestroy: 5

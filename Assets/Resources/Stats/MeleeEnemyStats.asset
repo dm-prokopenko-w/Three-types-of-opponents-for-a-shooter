@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d7a92de60fbec747a81fecd5ded7984, type: 3}
+  m_Name: MeleeEnemyStats
+  m_EditorClassIdentifier: 
+  characterName: MeleeEnemy
+  maxHealth: 150
+  damage: 10
+  speed: 3
+  attackRange: 1
+  chasingRange: 3
+  attackCooldown: 3
+  enemyBase: {fileID: 3546433835506619190, guid: 457b69d66f7b4e943a9f5eef9a1e9da6, type: 3}
